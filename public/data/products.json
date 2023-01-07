@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Nike Men's Revolution 4 Running Shoes",
+      "price": 3999,
+      "brand": "Nike",
+      "size": ["S", "M", "L", "XL"],
+      "idealFor": ["Men"],
+      "color": "Black",
+      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
+    },
+    {
+        "id": 2,
+        "name": "Nike Men's Revolution 4 Running Shoes",
+      "price": 3999,
+      "brand": "Nike",
+      "size": ["S", "M", "L", "XL"],
+      "idealFor": ["Men"],
+      "color": "Black",
+      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
+    },
+    {
+        "id": 3,
+        "name": "Nike Men's Revolution 4 Running Shoes",
+      "price": 3999,
+      "brand": "Nike",
+      "size": ["S", "M", "L", "XL"],
+      "idealFor": ["Men"],
+      "color": "Black",
+      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
+    },
+    {
+        "id": 4,
+        "name": "Nike Men's Revolution 4 Running Shoes",
+      "price": 3999,
+      "brand": "Nike",
+      "size": ["S", "M", "L", "XL"],
+      "idealFor": ["Men"],
+      "color": "Black",
+      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
+    },
+    {
+        "id": 5,
+        "name": "Nike Men's Revolution 4 Running Shoes",
+      "price": 3999,
+      "brand": "Nike",
+      "size": ["S", "M", "L", "XL"],
+      "idealFor": ["Men"],
+      "color": "Black",
+      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "name": "Nike Men's Revolution 4 Running Shoes",
+      "price": 3999,
+      "brand": "Nike",
+      "size": ["S", "M", "L", "XL"],
+      "idealFor": ["Men"],
+      "color": "Black",
+      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
+    }
+  ]
