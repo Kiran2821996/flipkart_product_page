@@ -21,11 +21,11 @@ function App() {
 
   // function to sort products based on the selected option
   const handleSortChangeLH = () => {
-    setSort("lowToHigh");
-  };
+    setSort("lowToHigh")
+  }
   const handleSortChangeHL = () => {
-    setSort("highToLow");
-  };
+    setSort("highToLow")
+  }
 
   // function to add/remove filters
   const handleFilterChange = (type, value) => {
@@ -61,10 +61,6 @@ function App() {
   // function to apply filters and sort to the products
   const filteredAndSortedProducts = products
     .filter((product) => {
-      if(minPrice>=0 && maxPrice<=1000){
-        return product.price >= minPrice && product.price <= maxPrice;
-      }
-      
       if (filters.size.length > 0 && !filters.size.includes(product.size)) {
         return false;
       }
@@ -76,6 +72,9 @@ function App() {
         !filters.idealFor.includes(product.idealFor)
       ) {
         return false;
+      }
+      if(minPrice>=0 && maxPrice<=1000){
+        return product.price >= minPrice && product.price <= maxPrice;
       }
       return true;
     })
@@ -108,7 +107,7 @@ function App() {
           defaultValue={minPrice}
           onChange={(e)=>handlePriceChange("min-price",e.target.value)}
         />
-        <input type='number' value={minPrice} />
+        <input type='number' value={minPrice} onChange={(e)=>handlePriceChange("min-price",e.target.value)} />
       </label>
       <label htmlFor="max-price">
         Max price:
@@ -121,7 +120,7 @@ function App() {
           defaultValue={maxPrice}
           onChange={(e)=>handlePriceChange("max-price",e.target.value)}
         />
-        <input type='number' value={maxPrice} />
+        <input type='number' value={maxPrice} onChange={(e)=>handlePriceChange("min-price",e.target.value)} />
       </label>
             Size:
             <label>
