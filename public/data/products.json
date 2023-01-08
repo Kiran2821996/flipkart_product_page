@@ -1,62 +1,62 @@
 [
-    {
-      "id": 1,
-      "name": "Nike Men's Revolution 4 Running Shoes",
-      "price": 3999,
-      "brand": "Nike",
-      "size": ["S", "M", "L", "XL"],
-      "idealFor": ["Men"],
-      "color": "Black",
-      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
-    },
-    {
-        "id": 2,
-        "name": "Nike Men's Revolution 4 Running Shoes",
-      "price": 3999,
-      "brand": "Nike",
-      "size": ["S", "M", "L", "XL"],
-      "idealFor": ["Men"],
-      "color": "Black",
-      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
-    },
-    {
-        "id": 3,
-        "name": "Nike Men's Revolution 4 Running Shoes",
-      "price": 3999,
-      "brand": "Nike",
-      "size": ["S", "M", "L", "XL"],
-      "idealFor": ["Men"],
-      "color": "Black",
-      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
-    },
-    {
-        "id": 4,
-        "name": "Nike Men's Revolution 4 Running Shoes",
-      "price": 3999,
-      "brand": "Nike",
-      "size": ["S", "M", "L", "XL"],
-      "idealFor": ["Men"],
-      "color": "Black",
-      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
-    },
-    {
-        "id": 5,
-        "name": "Nike Men's Revolution 4 Running Shoes",
-      "price": 3999,
-      "brand": "Nike",
-      "size": ["S", "M", "L", "XL"],
-      "idealFor": ["Men"],
-      "color": "Black",
-      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
-    },
-    {
-      "id": 6,
-      "name": "Nike Men's Revolution 4 Running Shoes",
-      "price": 3999,
-      "brand": "Nike",
-      "size": ["S", "M", "L", "XL"],
-      "idealFor": ["Men"],
-      "color": "Black",
-      "image": "https://rukminim1.flixcart.com/image/612/612/jz1z9ow0/shoe/h/g/g/nike-revolution-4-908988-001-original-imafh9zfzgfzfzfz.jpeg?q=70"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Addidas child star",
+    "price": 999,
+    "brand": "addidas",
+    "size": "S",
+    "idealFor": "Children",
+    "color": "Black",
+    "image": "./images/addidas_children_dress.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Addidas mens casual's",
+    "price": 699,
+    "brand": "addidas",
+    "size": "XL",
+    "idealFor": "Men",
+    "color": "white",
+    "image": "./images/addidas_mens_tshirt.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Addidas womens casual's",
+    "price": 649,
+    "brand": "addidas",
+    "size": "L",
+    "idealFor": "Women",
+    "color": "white",
+    "image": "./images/addidas_women_tshirt.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Nike children casuals",
+    "price": 899,
+    "brand": "Nike",
+    "size": "M",
+    "idealFor": "Children",
+    "color": "Black",
+    "image": "/images/nike_children_dress.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Nike Men's Revolt shirt",
+    "price": 799,
+    "brand": "Nike",
+    "size": "L",
+    "idealFor": "Men",
+    "color": "Black",
+    "image": "/images/nike_mens_tshirt.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Nike Women Revolt shirt",
+    "price": 749,
+    "brand": "Nike",
+    "size": "XL",
+    "idealFor": "Women",
+    "color": "Black",
+    "image": "/images/nike_womens_tshirt.jpg"
+  }
+]
