@@ -37,7 +37,7 @@ function App() {
     }
 
     setFilters(newFilters);
-  };
+  }
 
   const handlePriceChange = (type,value) => {
     
@@ -48,7 +48,7 @@ function App() {
       setMaxPrice(Number(value));
       console.log(maxPrice)
     }
-  };
+  }
   // function to clear all filters
   const handleClearFilters = () => {
     setFilters({
@@ -56,7 +56,9 @@ function App() {
       brand: [],
       idealFor: [],
     });
-  };
+    setMinPrice(0);
+    setMaxPrice(1000)
+  }
 
   // function to apply filters and sort to the products
   const filteredAndSortedProducts = products
