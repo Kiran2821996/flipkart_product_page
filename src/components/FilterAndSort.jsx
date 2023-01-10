@@ -83,19 +83,25 @@ function FilterAndSort({ products }) {
      
       
      
+      <div className="left_section_filter">
       <div>
-      <div>
-      <h4>Filters</h4>
-      
+        <div className="filter_flex">
+        <h4>Filters</h4>
+      {filters.size.length>0||filters.brand.length>0||filters.idealFor.length>0?<button onClick={handleClearFilters}>Clear Filter</button>:""}
+        </div>
+     
+      <div className="filter_flex_ele">
       {filters.size.map((ele) => (
-        <span>{ele}</span>
+        <span className="filter_ele" >{ele}</span>
       ))}
       {filters.brand.map((ele) => (
-        <span>{ele}</span>
+        <span className="filter_ele">{ele}</span>
       ))}
       {filters.idealFor.map((ele) => (
-        <span>{ele}</span>
+        <span className="filter_ele">{ele}</span>
       ))}
+      </div>
+      
      
       </div>
         <div className="price_filters">
@@ -231,7 +237,7 @@ function FilterAndSort({ products }) {
             Children
           </label>
         </div>
-        <button onClick={handleClearFilters}>Clear Filter</button>
+      
       </div>
       <div>
         <div className="sort">

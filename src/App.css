@@ -142,4 +142,27 @@ font-weight: bold;
 /* filter section */
 .filter_main{
   display: flex;
+
+}
+.left_section_filter{
+  border: 2px solid black;
+  height: fit-content;
+}
+.filter_flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter_flex_ele{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:left;
+ 
+}
+.filter_ele{
+  border: 1px solid black;
+  background-color: grey;
+  margin: 1%;
+  padding: 2%;
 }
