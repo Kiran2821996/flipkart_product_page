@@ -1,3 +1,145 @@
-.login{
-  background-color: blue;
+.main {
+  display: flex;
+  background-color: #2874f0;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+#main-logo {
+  width: 10%;
+  height: 5vh;
+}
+.search-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  border-radius: 5px;
+  background-color: white;
+}
+#search-input {
+  width: 90%;
+  border: 0px solid;
+  height: 2rem;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+input:focus {
+  outline: none;
+}
+li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+#nav-links {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  #main-logo {
+    width: 5%;
+    height: 12vh;
+  }
+  li {
+    font-size: smaller;
+  }
+  .search-container {
+    width: 30%;
+  }
+
+  #search-input {
+    width: 90%;
+    height: 2rem;
+    padding: 0.1rem;
+  }
+  input:focus {
+    outline: none;
+  }
+  #nav-links {
+    gap: 1rem;
+  }
+}
+
+
+#main-content {
+  width: 75vw;
+display: flex;
+background-color: white;
+justify-content: center;
+margin: 0.3rem;
+flex-wrap: wrap;
+}
+.item-image {
+width: 15vw;
+height: 40vh;
+}
+hr{
+  width: 90%;
+}
+.brand-name{
+  color: gray;
+  text-align: start;
+  margin-bottom: -1rem;
+  margin-top: -2px;
+}
+.assured-img{
+width: 3.5rem;
+height: 1rem;
+margin-bottom: 2px;
+}
+.product-name{
+font-size: 1rem;
+margin-top: 1.5rem;
+text-align: start;
+
+}
+.card {
+width: 15vw;
+padding: 10px;
+margin: 0.5rem;
+}
+.prices {
+display: flex;
+margin-top: -2.5rem ;
+align-items: baseline;
+justify-content: space-between;
+}
+
+.price {
+font-size: medium;
+font-weight: bold;
+}
+.small{
+  font-size: small;
+}
+.orignal-price {
+color: gray;
+text-decoration: line-through;
+}
+
+.discount-rate {
+color: green;
+font-weight: bold;
+}
+
+.card:hover{
+  box-shadow: 2px 2px 10px 1px rgb(188, 184, 184);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+  #main-content {
+      width: 72vw;
+  }
+}
+/* filter section */
+.filter_main{
+  display: flex;
 }

@@ -16,7 +16,7 @@
     "brand": "addidas",
     "size": "XL",
     "idealFor": "Men",
-    "color": "white",
+    "color": "hite",
     "image": "./images/addidas_mens_tshirt.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "brand": "addidas",
     "size": "L",
     "idealFor": "Women",
-    "color": "white",
+    "color": "White",
     "image": "./images/addidas_women_tshirt.jpg"
   },
   {
@@ -337,5 +337,25 @@
     "idealFor": "Women",
     "color": "Yellow",
     "image": "./images/women_tshirt_yellow_S_Addidas.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Addidas child star",
+    "price": 799,
+    "brand": "addidas",
+    "size": "M",
+    "idealFor": "Children",
+    "color": "Yellow",
+    "image": "./images/children_tshirt_M_Addidas.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Addidas child star",
+    "price": 699,
+    "brand": "Nike",
+    "size": "S",
+    "idealFor": "Children",
+    "color": "Red",
+    "image": "./images/children_tshirt_S_Addidas.jpg"
   }
 ]
