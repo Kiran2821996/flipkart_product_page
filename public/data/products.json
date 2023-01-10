@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "name": "Nike Women XL Blue shirt",
+    "name": "Nike Women shirt",
     "price": 749,
     "brand": "Nike",
     "size": "XL",
@@ -61,12 +61,211 @@
   },
   {
     "id": 7,
-    "name": "Nike Women Revolt shirt",
+    "name": "Nike Women shirt",
     "price": 769,
     "brand": "Nike",
     "size": "XL",
     "idealFor": "Women",
     "color": "Black",
-    "image": "/images/women_tshirt_black_XL_Nike.jpg"
+    "image": "/images/womens_tshirt_black_XL_Nike.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nike Women shirt",
+    "price": 679,
+    "brand": "Nike",
+    "size": "L",
+    "idealFor": "Women",
+    "color": "Green",
+    "image": "/images/women_tshirt_green_L_Nike.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Nike Women shirt",
+    "price": 569,
+    "brand": "Nike",
+    "size": "L",
+    "idealFor": "Women",
+    "color": "Black",
+    "image": "/images/women_tshirt_black_L_Nike.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Nike Women shirt",
+    "price": 529,
+    "brand": "Nike",
+    "size": "M",
+    "idealFor": "Women",
+    "color": "Red",
+    "image": "/images/women_tshirt_red_M_Nike.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Nike Women shirt",
+    "price": 499,
+    "brand": "Nike",
+    "size": "M",
+    "idealFor": "Women",
+    "color": "White",
+    "image": "/images/women_tshirt_white_M_Nike.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Nike Women shirt",
+    "price": 459,
+    "brand": "Nike",
+    "size": "S",
+    "idealFor": "Women",
+    "color": "White",
+    "image": "/images/women_tshirt_white_S_Nike.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Nike Women shirt",
+    "price": 399,
+    "brand": "Nike",
+    "size": "S",
+    "idealFor": "Women",
+    "color": "Yellow",
+    "image": "/images/women_tshirt_yellow_S_Nike.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Nike Men's shirt",
+    "price": 819,
+    "brand": "Nike",
+    "size": "L",
+    "idealFor": "Men",
+    "color": "Blue",
+    "image": "/images/men_tshirt_blue_L_Nike.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Nike Men's shirt",
+    "price": 859,
+    "brand": "Nike",
+    "size": "XL",
+    "idealFor": "Men",
+    "color": "Grey",
+    "image": "/images/men_tshirt_grey_XL_Nike.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Nike Men's shirt",
+    "price": 879,
+    "brand": "Nike",
+    "size": "XL",
+    "idealFor": "Men",
+    "color": "White",
+    "image": "/images/men_tshirt_white_XL_Nike.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Nike Men's shirt",
+    "price": 719,
+    "brand": "Nike",
+    "size": "M",
+    "idealFor": "Men",
+    "color": "Green",
+    "image": "/images/men_tshirt_green_M_Nike.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Nike Men's shirt",
+    "price": 749,
+    "brand": "Nike",
+    "size": "M",
+    "idealFor": "Men",
+    "color": "Yellow",
+    "image": "/images/men_tshirt_Yellow_M_Nike.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Nike Men's shirt",
+    "price": 549,
+    "brand": "Nike",
+    "size": "S",
+    "idealFor": "Men",
+    "color": "Brown",
+    "image": "/images/men_tshirt_brown_S_Nike.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Nike Men's shirt",
+    "price": 459,
+    "brand": "Nike",
+    "size": "S",
+    "idealFor": "Men",
+    "color": "Red",
+    "image": "/images/men_tshirt_red_S_Nike.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Addidas Men's shirt",
+    "price": 799,
+    "brand": "addidas",
+    "size": "XL",
+    "idealFor": "Men",
+    "color": "Grey",
+    "image": "/images/men_tshirt_grey_XL_Addidas.jpg"
+  },{
+    "id": 22,
+    "name": "Addidas Men's shirt",
+    "price": 759,
+    "brand": "addidas",
+    "size": "L",
+    "idealFor": "Men",
+    "color": "Blue",
+    "image": "/images/men_tshirt_blue_L_Addidas.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Addidas Men's shirt",
+    "price": 699,
+    "brand": "addidas",
+    "size": "L",
+    "idealFor": "Men",
+    "color": "Blue",
+    "image": "/images/men_tshirt_yellow_L_Addidas.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Addidas Men's shirt",
+    "price": 599,
+    "brand": "addidas",
+    "size": "M",
+    "idealFor": "Men",
+    "color": "White",
+    "image": "/images/men_tshirt_white_M_Addidas.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Addidas Men's shirt",
+    "price": 549,
+    "brand": "addidas",
+    "size": "M",
+    "idealFor": "Men",
+    "color": "Black",
+    "image": "/images/men_tshirt_black_M_Addidas.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Addidas Men's shirt",
+    "price": 399,
+    "brand": "addidas",
+    "size": "S",
+    "idealFor": "Men",
+    "color": "Black",
+    "image": "/images/men_tshirt_black_S_Addidas.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Addidas Men's shirt",
+    "price": 349,
+    "brand": "addidas",
+    "size": "S",
+    "idealFor": "Men",
+    "color": "Red",
+    "image": "/images/men_tshirt_red_S_Addidas.jpg"
   }
 ]
