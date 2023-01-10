@@ -51,12 +51,22 @@
   },
   {
     "id": 6,
-    "name": "Nike Women Revolt shirt",
+    "name": "Nike Women XL Blue shirt",
     "price": 749,
     "brand": "Nike",
     "size": "XL",
     "idealFor": "Women",
+    "color": "Blue",
+    "image": "/images/women_tshirt_blue_XL_Nike.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Nike Women Revolt shirt",
+    "price": 769,
+    "brand": "Nike",
+    "size": "XL",
+    "idealFor": "Women",
     "color": "Black",
-    "image": "/images/nike_womens_tshirt.jpg"
+    "image": "/images/women_tshirt_black_XL_Nike.jpg"
   }
 ]
