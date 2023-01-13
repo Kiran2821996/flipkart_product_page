@@ -11,6 +11,7 @@ function FilterAndSort({ products }) {
     brand: [],
     idealFor: [],
   });
+
   // function to sort products based on the selected option
   const handleSortChangeLH = () => {
     setSort("lowToHigh");
@@ -78,35 +79,61 @@ function FilterAndSort({ products }) {
       return a.price - b.price;
     });
 
+  const handleRemove = (element) => {
+    const updatedObject = { ...filters };
+    Object.keys(updatedObject).forEach((key) => {
+      updatedObject[key] = updatedObject[key].filter(
+        (value) => value !== element
+      );
+    });
+    setFilters(updatedObject);
+  };
+
   return (
+    <>
     <div className="filter_main">
-     
-      
-     
       <div className="left_section_filter">
-      <div>
-        <div className="filter_flex">
-        <h4>Filters</h4>
-      {filters.size.length>0||filters.brand.length>0||filters.idealFor.length>0?<button onClick={handleClearFilters}>Clear Filter</button>:""}
+        <div>
+          <div className="filter_flex">
+            <h4>Filters</h4>
+            {filters.size.length > 0 ||
+            filters.brand.length > 0 ||
+            filters.idealFor.length > 0 ? (
+              <button id="btn-clearAll" onClick={handleClearFilters}>CLEAR ALL</button>
+            ) : (
+              ""
+            )}
+          </div>
+
+          <div className="filter_flex_ele">
+       {/* {   Object.keys({...filters}).map((ele) => {
+       <span className="filter_ele" onClick={() => handleRemove(ele)}>
+       {ele}
+     </span>
+      );
+    })} */}
+            {filters.size.map((ele) => (
+              <span className="filter_ele" onClick={() => handleRemove(ele)}>
+              <sapn className="x">X</sapn>{" "}{ele}
+              </span>
+            ))}
+            {filters.brand.map((ele) => (
+              <span className="filter_ele" onClick={() => handleRemove(ele)}>
+                <sapn className="x">X</sapn>{" "}{ele}
+              </span>
+            ))}
+            {filters.idealFor.map((ele) => (
+              <span className="filter_ele" onClick={() => handleRemove(ele)}>
+                <sapn className="x">X</sapn>{" "}{ele}
+              </span>
+            ))}
+          </div>
         </div>
-     
-      <div className="filter_flex_ele">
-      {filters.size.map((ele) => (
-        <span className="filter_ele" >{ele}</span>
-      ))}
-      {filters.brand.map((ele) => (
-        <span className="filter_ele">{ele}</span>
-      ))}
-      {filters.idealFor.map((ele) => (
-        <span className="filter_ele">{ele}</span>
-      ))}
-      </div>
-      
-     
-      </div>
         <div className="price_filters">
-          <h5>Price:</h5>
-          <div>
+        <h5>Price:</h5>
+          <div className="price">
+          
+          <div >
             {" "}
             <label htmlFor="min-price">
               Min price:
@@ -118,11 +145,13 @@ function FilterAndSort({ products }) {
                 max={maxPrice}
                 defaultValue={minPrice}
                 onChange={(e) => handlePriceChange("min-price", e.target.value)}
+                className="input_range"
               />
               <input
                 type="number"
                 value={minPrice}
                 onChange={(e) => handlePriceChange("min-price", e.target.value)}
+                className="input-min" 
               />
             </label>
           </div>
@@ -137,18 +166,22 @@ function FilterAndSort({ products }) {
                 min={minPrice}
                 max={1000}
                 defaultValue={maxPrice}
+                className="input_range"
                 onChange={(e) => handlePriceChange("max-price", e.target.value)}
               />
               <input
                 type="number"
                 value={maxPrice}
                 onChange={(e) => handlePriceChange("min-price", e.target.value)}
+                className="input-max" 
               />
             </label>
           </div>
+          </div>
+         
         </div>
         <div className="size_filters">
-          <h5>Size:</h5>
+          <h5 >Size:</h5>
           <label>
             <input
               type="checkbox"
@@ -237,7 +270,6 @@ function FilterAndSort({ products }) {
             Children
           </label>
         </div>
-      
       </div>
       <div>
         <div className="sort">
@@ -248,6 +280,8 @@ function FilterAndSort({ products }) {
         <Product filteredAndSortedProducts={filteredAndSortedProducts} />
       </div>
     </div>
+    </>
+    
   );
 }
 

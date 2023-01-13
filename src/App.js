@@ -17,7 +17,10 @@ function App() {
   return (
     <div>
       <Header />
+      <div className="mainsec">
       <FilterAndSort products={products} />
+      </div>
+     
     </div>
   );
 }
